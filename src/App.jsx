@@ -20,12 +20,12 @@ const rooms = [
 
 // Load the apartment model
 function Apartment() {
-  const { scene } = useGLTF('/models/aurelle-residency.glb')
+  const { scene } = useGLTF('/models/Aurelle_Residency_Final.glb')
 
   return <primitive object={scene} />
 }
 
-useGLTF.preload('/models/aurelle-residency.glb')
+useGLTF.preload('/models/Aurelle_Residency_Final.glb')
 
 // Starting camera path.
 // These coordinates must be tuned to the actual model.
